@@ -24,6 +24,7 @@ class Calculator extends Component {
           <button type="button" className="three">3</button>
           <button type="button" className="plus">+</button>
           <button type="button" className="zero">0</button>
+          <button type="button" className="point">.</button>
           <button type="button" className="equal">=</button>
         </section>
       </main>
