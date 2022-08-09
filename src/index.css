@@ -1,4 +1,46 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  border-color: #fff;
+  font-weight: bold;
+}
+
+.container {
+  display: grid;
+  width: 500px;
+  height: 500px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+.display {
+  grid-column: 1 / span 4;
+  background-color: #808080;
+  text-align: right;
+}
+
+.output {
+  color: #fff;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-right: 15px;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
+
+.division,
+.multi,
+.minus,
+.plus,
+.equal {
+  background-color: #ffa500;
+  font-size: large;
+}
+
+.point {
+  font-size: larger;
 }
