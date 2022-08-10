@@ -10,7 +10,7 @@ const Calculator = () => {
   };
 
   return (
-      <main>
+    <main>
         <section className="container">
           <p className="output">{calc.next || calc.total || 0}</p>
           <button type="button" className="clear" onClick={handleClick}>AC</button>
