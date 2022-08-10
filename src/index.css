@@ -44,3 +44,7 @@
 .point {
   font-size: larger;
 }
+
+.button {
+  cursor: pointer;
+}
