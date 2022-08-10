@@ -10,15 +10,15 @@ class Calculator extends Component {
   }
 
   handleClick = (e) => {
-    this.setState((val) => calculate(val, e.target.textContent));
+    this.setState((val) => calculate(val, e.target.innerText));
   }
 
   render() {
-    const { total, next } = this.state;
+    const { next, total } = this.state;
     return (
       <main>
         <section className="container">
-          <p className="output">{ next|| total || 0 }</p>
+          <p className="output">{next || total || 0}</p>
           <button type="button" className="clear" onClick={this.handleClick()}>AC</button>
           <button type="button" className="plusminus" onClick={this.handleClick()}>+/-</button>
           <button type="button" className="percentage" onClick={this.handleClick()}>%</button>
