@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 import calculate from '../Logic/calculate';
 
 const Calculator = () => {
- const [calc, setCalc] = useState({total: '', next: ''});
+  const [calc, setCalc] = useState({ total: '', next: '' });
 
- const handleClick = (e) => {
-  setCalc(calculate(calc, e.target.innerText));
-}
+  const handleClick = (e) => {
+    setCalc(calculate(calc, e.target.innerText));
+  };
 
-    return (
+  return (
       <main>
         <section className="container">
           <p className="output">{calc.next || calc.total || 0}</p>
@@ -34,7 +34,7 @@ const Calculator = () => {
           <button type="button" className="equal" onClick={handleClick}>=</button>
         </section>
       </main>
-    );
-  }
+  );
+};
 
 export default Calculator;
