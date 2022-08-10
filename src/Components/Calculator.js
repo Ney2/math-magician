@@ -1,9 +1,10 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import calculate from '../Logic/claculate';
+
 class Calculator extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       total: '',
       operation: '',
@@ -13,7 +14,7 @@ class Calculator extends Component {
   }
 
   handleClick = (e) => {
-    this.setState((value) => calculate(value, e.target.innerText))
+    this.setState((value) => calculate(value, e.target.innerText));
   }
 
   render() {
