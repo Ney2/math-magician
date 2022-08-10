@@ -1,10 +1,11 @@
 /* eslint-disable react/prefer-stateless-function */
 import React, { Component } from 'react';
 import calculate from '../Logic/calculate';
+
 class Calculator extends Component {
   constructor(props) {
     super(props);
-    this.state = {}
+    this.state = {};
     this.handleClick = this.handleClick.bind(this);
   }
 
