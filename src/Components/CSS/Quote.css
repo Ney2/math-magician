@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Roboto', sans-serif;
+  color: green;
+}
+
+.quote p {
+  font-size: 30px;
+  padding: 12px;
+}
+
+.name {
+  font-size: 20px;
+  font-style: italic;
+  padding: 12px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .quote {
+    margin-left: 20%;
+  }
+
+  .quote p {
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  .name {
+    text-align: center;
+  }
+}
