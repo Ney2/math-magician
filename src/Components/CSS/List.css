@@ -19,7 +19,6 @@
 }
 
 .nav-link {
-  align-items: space-between;
   text-decoration: none;
   background-color: #fff;
   margin-left: 30%;
@@ -40,6 +39,6 @@
   }
 
   .nav-header {
-    max-width: fit-content;
+    width: fit-content;
   }
 }
