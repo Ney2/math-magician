@@ -6,13 +6,22 @@
   font-weight: bold;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper h1 {
+  align-self: center;
+  color: green;
+}
+
 .container {
+  margin-top: 10%;
   display: grid;
   width: 500px;
   height: 500px;
   grid-template-columns: repeat(4, 1fr);
-  margin-left: 30%;
-  margin-top: 10%;
 }
 
 .output {
@@ -42,6 +51,8 @@
   font-size: larger;
 }
 
-.button {
+button {
   cursor: pointer;
+  background-color: #323;
+  color: #fff;
 }

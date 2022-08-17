@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: blue;
+  background-image: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}

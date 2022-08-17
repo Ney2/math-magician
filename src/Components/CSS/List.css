@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  align-items: baseline;
+  height: 80px;
+  font-size: large;
+}
+
+.nav-header h1 {
+  align-self: baseline;
+  color: green;
+  margin-top: 1%;
+}
+
+.nav-link {
+  text-decoration: none;
+  background-color: #fff;
+  margin-left: 30%;
+  color: green;
+  font-size: larger;
+}
+
+.nav-link:focus {
+  color: red;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .nav-header {
+    width: fit-content;
+  }
+}
