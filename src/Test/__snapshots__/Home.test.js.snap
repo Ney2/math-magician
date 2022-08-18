@@ -22,7 +22,8 @@ exports[`renders correctly 1`] = `
       <br />
       It is a simple website built using one of the popular JavaScript library; React.
       <br />
-      This website conatins a simple calulator that performs some basic 
+      This website conatins a simple calulator that performs some basic
+       
       <br />
       arthematic functions like addition, subtraction, multiplication and division.
     </p>
