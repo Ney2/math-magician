@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="footer"
+>
+  <div
+    className="copyright"
+  >
+    <h4>
+      Designed by Kidist-Guta
+    </h4>
+    <p>
+      Copyright@2022
+    </p>
+  </div>
+</div>
+`;
