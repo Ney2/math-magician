@@ -17,23 +17,21 @@ Any kind of browser and code editor.
     3. Open terminal
     4. Type npm start in your terminal, this will open the project in your browser
 
-# Author 
+# Author 1
 
 - GitHub: [@Ney2](https://github.com/Ney2)
 - Twitter: [@KidistGuta](https://twitter.com/GutaKidist)
 - LinkedIn: [@KidistDinku](https://www.linkedin.com/in/kidist-guta-014025183/)
 
 
- **Author1**
+ # Author 2
 
 - GitHub: [@githubhandle](https://github.com/eudondian)
 - Twitter: [@twitterhandle](https://twitter.com/eudondian)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/esther-udondian-186849119/)
 
-
-## 🤝 Contributing
 # 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
+Contributions, [issues](https://github.com/Ney2/math-magician/issues), and feature requests are welcome!
 
 # Show your support
 Give a ⭐️ if you like this project!
