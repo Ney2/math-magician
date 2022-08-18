@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="quote"
+>
+  <p>
+    Mathematics is the most beautiful and most powerful creation of the human spirit.
+  </p>
+  <p
+    className="name"
+  >
+    Stefan Banach
+  </p>
+</div>
+`;
